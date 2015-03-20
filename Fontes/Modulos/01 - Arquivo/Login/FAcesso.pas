@@ -109,7 +109,7 @@ procedure TFrmAcesso.FormCreate(Sender: TObject);
 
 begin
    nUsuario :=0;
-   if FileExists('C:\Vestis.txt') then
+   if FileExists('C:\VestisPCP.txt') then
    Begin
       EditUsuario.text := 'Admin';
       EditSenha.text := 'Admin';

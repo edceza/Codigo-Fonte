@@ -48,10 +48,10 @@ unit App.Constantes;
 interface
 
   const DRIVE_SISTEMA              = 'C:';
-  const PASTA_SISTEMA              = 'Vestis';
+  const PASTA_SISTEMA              = 'VestisPCP';
   Const EXECUTAVEL_NOME            = 'VESTISPCP';
   const PASTA_BINARIO              = 'Binarios';
-  const CONFIG_INI                 = 'Vestis.ini';
+  const CONFIG_INI                 = 'VestisPCP.ini';
   const PASTA_SEPARADOR            = '\';
   const LOGO_NOME                  = 'logo.jpg';
   const SITE_EMPRESA               = 'www.yyyy.com.br';
@@ -60,7 +60,7 @@ interface
   const DATABASE_GERENCIADOR       = 'SQL Server';
   const DATABASE_VERSAO            = '2014';
 
-  const DATABASE_NOME              = 'VESTIS';
+  const DATABASE_NOME              = 'VESTISPCP';
   const DATABASE_USUARIO           = 'sa';
   const DATABASE_SENHA             = 'sql2015';
   const DATABASE_PORTA             = 1433;

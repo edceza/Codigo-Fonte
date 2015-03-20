@@ -153,7 +153,7 @@ object FrmServidorSistema: TFrmServidorSistema
         Width = 490
         Height = 34
         Caption = 'Conectar Servidor'
-        ExplicitWidth = 137
+        ExplicitWidth = 136
       end
     end
   end
@@ -212,11 +212,11 @@ object FrmServidorSistema: TFrmServidorSistema
       ParentShowHint = False
       ShowHint = True
       TabOrder = 0
-      Text = 'localhost'
+      Text = '.\sqlexpress'
     end
     object EditDB: TLabeledEdit
       Left = 111
-      Top = 106
+      Top = 105
       Width = 122
       Height = 22
       Hint = 'nome do banco de dados'
@@ -240,7 +240,7 @@ object FrmServidorSistema: TFrmServidorSistema
       ParentShowHint = False
       ShowHint = True
       TabOrder = 3
-      Text = 'vestis'
+      Text = 'VestisPCP'
     end
     object EditSenha: TLabeledEdit
       Left = 240
@@ -270,7 +270,7 @@ object FrmServidorSistema: TFrmServidorSistema
       PasswordChar = '*'
       ShowHint = True
       TabOrder = 4
-      Text = 'sql2014'
+      Text = 'sql2015'
     end
     object EditPorta: TLabeledEdit
       Left = 18

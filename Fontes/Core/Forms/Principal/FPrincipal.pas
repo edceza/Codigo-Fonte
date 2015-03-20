@@ -50,18 +50,27 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.Menus,
-  Vcl.Buttons, Vcl.ExtCtrls, Data.DB,   Vcl.ImgList,
+  Vcl.Buttons, Vcl.ExtCtrls, Data.DB,  Vcl.ImgList,
   Vcl.PlatformDefaultStyleActnCtrls, Vcl.ActnList, Vcl.ActnMan, Vcl.Ribbon,
   Vcl.ActnCtrls, Vcl.ToolWin, Vcl.ActnMenus, Vcl.RibbonActnMenus,
   Vcl.RibbonObsidianStyleActnCtrls, Vcl.Grids, Vcl.DBGrids, Vcl.DBCtrls,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf,
+  FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async,
+  FireDAC.Phys, FireDAC.Phys.MSSQL, FireDAC.Phys.MSSQLDef, FireDAC.VCLUI.Wait,
+  FireDAC.VCLUI.Async, FireDAC.Comp.UI, FireDAC.Phys.ODBCBase,
+  FireDAC.Comp.Client, System.Actions, Vcl.ComCtrls, Vcl.Imaging.jpeg,
   Classe.EMail,
   Classe.Global,
-  App.Constantes, Vcl.RibbonLunaStyleActnCtrls, Vcl.RibbonSilverStyleActnCtrls,
-  Vcl.Imaging.jpeg, System.Actions, FireDAC.Stan.Intf, FireDAC.Stan.Option,
-  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
-  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Comp.Client,
-  FireDAC.Phys.ODBCBase, FireDAC.Phys.MSSQL, FireDAC.VCLUI.Wait, FireDAC.Comp.UI,
-  FireDAC.VCLUI.Login, FireDAC.VCLUI.Async, Vcl.ComCtrls, FireDAC.Phys.MSSQLDef;
+  App.Constantes;
+
+//  Vcl.RibbonLunaStyleActnCtrls, Vcl.RibbonSilverStyleActnCtrls,
+//  Vcl.Imaging.jpeg, System.Actions, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+//  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+//  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Comp.Client,
+//  FireDAC.Phys.ODBCBase, FireDAC.Phys.MSSQL, FireDAC.VCLUI.Wait, FireDAC.Comp.UI,
+//  FireDAC.VCLUI.Login, FireDAC.VCLUI.Async, Vcl.ComCtrls, FireDAC.Phys.MSSQLDef;
+
+
 
 
 type

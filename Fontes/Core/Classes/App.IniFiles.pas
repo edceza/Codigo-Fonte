@@ -73,10 +73,10 @@ uses Classe.Global;
 procedure TInfFile.InfLoad;
 begin
    FIniConfiguracao := TIniFile.create(FSistema.ArquivoCFG);
-   FBancoDados.Nome                := FIniConfiguracao.ReadString('PARAMETROS',    'Database',      'Vestis');
-   FBancoDados.Endereco            := FIniConfiguracao.ReadString('PARAMETROS',    'Server',        'localhost');
+   FBancoDados.Nome                := FIniConfiguracao.ReadString('PARAMETROS',    'Database',      'VestisPCP');
+   FBancoDados.Endereco            := FIniConfiguracao.ReadString('PARAMETROS',    'Server',        '.\sqlexpress');
    FBancoDados.Porta               := FIniConfiguracao.ReadInteger('PARAMETROS',   'porta',         1433);
-   FBancoDados.SenhaEncriptada     := FIniConfiguracao.ReadString('PARAMETROS',    'senha',         '42/3krr'); // senha: sql2015
+   FBancoDados.SenhaEncriptada     := FIniConfiguracao.ReadString('PARAMETROS',    'senha',         '42/3krr');
    FBancoDados.Senha               := FBancoDados.SenhaDecriptada;
    FIniConfiguracao.Free;
 end;

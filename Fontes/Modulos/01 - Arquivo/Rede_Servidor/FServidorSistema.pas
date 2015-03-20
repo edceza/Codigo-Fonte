@@ -126,10 +126,10 @@ end;
 
 procedure TFrmServidorSistema.restaurarpadres1Click(Sender: TObject);
 begin
-   EditServerIP.text  := 'localhost';
+   EditServerIP.text  := '.\sqlexpress';
    EditPorta.text     := '1433';
-   EditDB.text        := 'Vestis';
-   EditSenha.text     := 'sql2014'; //Decript( '12/3qurt' );
+   EditDB.text        := 'VestisPCP';
+   EditSenha.text     := 'sql2015';
 end;
 
 procedure TFrmServidorSistema.FormClose(Sender: TObject;

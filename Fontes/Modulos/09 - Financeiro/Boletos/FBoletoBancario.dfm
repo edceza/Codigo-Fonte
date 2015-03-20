@@ -387,7 +387,8 @@ object FrmBoletoBancario: TFrmBoletoBancario
       ExplicitWidth = 832
       ExplicitHeight = 36
       inherited LblBarraTitulo: TLabel
-        Width = 121
+        Width = 830
+        Height = 34
         Caption = 'Boleto Banc'#225'rio'
         ExplicitWidth = 121
       end
@@ -735,15 +736,15 @@ object FrmBoletoBancario: TFrmBoletoBancario
     Banco.TamanhoMaximoNossoNum = 12
     Banco.TipoCobranca = cobSantander
     Cedente.TipoInscricao = pJuridica
-    NomeArqRemessa = 'Sisteria'
+    NomeArqRemessa = 'vestispcp'
     DirArqRemessa = 'C:'
-    NomeArqRetorno = 'Sisteria'
+    NomeArqRetorno = 'vestispcp'
     DirArqRetorno = 'C:'
     NumeroArquivo = 0
     LeCedenteRetorno = True
     ACBrBoletoFC = ACBrBoleto_FastReport
-    Left = 208
-    Top = 216
+    Left = 184
+    Top = 128
   end
   object db_ViewBoletosRemessas: TFDQuery
     Connection = FrmPrincipal.DBConexao
@@ -862,9 +863,9 @@ object FrmBoletoBancario: TFrmBoletoBancario
   end
   object ACBrBoleto_FastReport: TACBrBoletoFCFR
     ACBrBoleto = ACBrBoleto1
-    DirLogo = 'C:\Sisteria\Boletos\Logos'
-    FastReportFile = 'C:\Sisteria\Boletos\Layout\BoletoFR.fr3'
-    Left = 336
-    Top = 288
+    DirLogo = 'C:\VestisPCP\Boletos\Logos'
+    FastReportFile = 'C:\VestisPCP\Boletos\Layout\BoletoFR.fr3'
+    Left = 272
+    Top = 128
   end
 end

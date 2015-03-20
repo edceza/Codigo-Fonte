@@ -20,7 +20,7 @@ object dmBaseComponentes: TdmBaseComponentes
   object frxMailExport1: TfrxMailExport
     FileName = 'anexo'
     UseFileCache = True
-    DefaultPath = 'C:\Sisteria\Dados\'
+    DefaultPath = 'C:\VestisPCP\DB\'
     ShowProgress = True
     OverwritePrompt = True
     DataOnly = False
@@ -45,7 +45,7 @@ object dmBaseComponentes: TdmBaseComponentes
       '')
     SmtpPort = 465
     UseIniFile = True
-    LogFile = 'C:\Sisteria\Dados\log_mail.log'
+    LogFile = 'C:\VestisPCP\DB\log_mail.log'
     TimeOut = 60
     ConfurmReading = True
     UseMAPI = SMTP

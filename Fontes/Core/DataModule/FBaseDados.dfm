@@ -1797,8 +1797,8 @@ object BaseDados: TBaseDados
   end
   object ACBrNFe1: TACBrNFe
     Configuracoes.Geral.Salvar = True
-    Configuracoes.Geral.PathSalvar = 'C:\Sisteria\NFE\Geradas\'
-    Configuracoes.Geral.PathSchemas = 'C:\Sisteria\NFE\Arquitetura\'
+    Configuracoes.Geral.PathSalvar = 'C:\VestisPCP\NFE\Geradas\'
+    Configuracoes.Geral.PathSchemas = 'C:\VestisPCP\NFE\Arquitetura\'
     Configuracoes.Geral.ExibirErroSchema = True
     Configuracoes.Geral.FormatoAlerta = 'TAG:%TAGNIVEL% ID:%ID%/%TAG%(%DESCRICAO%) - %MSG%.'
     Configuracoes.Geral.RetirarAcentos = True
@@ -1809,11 +1809,11 @@ object BaseDados: TBaseDados
     Configuracoes.WebServices.IntervaloTentativas = 0
     Configuracoes.WebServices.AjustaAguardaConsultaRet = False
     Configuracoes.Arquivos.Salvar = True
-    Configuracoes.Arquivos.PathNFe = 'C:\Sisteria\NFE\Geradas'
-    Configuracoes.Arquivos.PathCan = 'C:\Sisteria\NFE\Canceladas'
-    Configuracoes.Arquivos.PathInu = 'C:\Sisteria\NFE\Inutilizadas'
-    Configuracoes.Arquivos.PathDPEC = 'C:\Sisteria\NFE\DPEC'
-    Configuracoes.Arquivos.PathCCe = 'C:\Sisteria\NFE\CCE'
+    Configuracoes.Arquivos.PathNFe = 'C:\VestisPCP\NFE\Geradas'
+    Configuracoes.Arquivos.PathCan = 'C:\VestisPCP\NFE\Canceladas'
+    Configuracoes.Arquivos.PathInu = 'C:\VestisPCP\NFE\Inutilizadas'
+    Configuracoes.Arquivos.PathDPEC = 'C:\VestisPCP\NFE\DPEC'
+    Configuracoes.Arquivos.PathCCe = 'C:\VestisPCP\NFE\CCE'
     OnStatusChange = ACBrNFe1StatusChange
     DANFE = DANFE_FastReport
     Left = 64
@@ -2115,6 +2115,7 @@ object BaseDados: TBaseDados
     AfterDelete = db_PedidoCompraItensAfterDelete
     MasterSource = ds_PedidoCompra
     MasterFields = 'EMPRESA;CODIGO'
+    DetailFields = 'EMPRESA;CODIGO'
     Connection = FrmPrincipal.DBConexao
     FetchOptions.AssignedValues = [evCache]
     FetchOptions.Cache = [fiBlobs, fiMeta]
@@ -2228,7 +2229,7 @@ object BaseDados: TBaseDados
   end
   object DANFE_FastReport: TACBrNFeDANFEFR
     ACBrNFe = ACBrNFe1
-    PathPDF = 'C:\Sisteria\NFE\PDF\'
+    PathPDF = 'C:\VestisPCP\NFE\PDF\'
     MostrarPreview = True
     MostrarStatus = True
     TipoDANFE = tiRetrato

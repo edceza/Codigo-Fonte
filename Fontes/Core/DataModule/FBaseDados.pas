@@ -1323,8 +1323,8 @@ End;
 
 procedure TBaseDados.DataModuleCreate(Sender: TObject);
 begin
-   if FileExists('C:\Vestis\NFE\DANFE\DANFE.fr3') then
-      DANFE_FastReport.FastFile :='C:\Vestis\NFE\DANFE\DANFE.fr3';
+   if FileExists('C:\VestisPCP\NFE\DANFE\DANFE.fr3') then
+      DANFE_FastReport.FastFile :='C:\VestisPCP\NFE\DANFE\DANFE.fr3';
 end;
 
 procedure TBaseDados.db_ClientesAfterClose(DataSet: TDataSet);
